@@ -1,9 +1,25 @@
 
 
 
-
-
 rquad <- function(n,theta){
+
+
+  if (!is.numeric(n) | length(n) != 1) {
+    stop("n must be one numeric value")
+  }
+
+  if (!is.numeric(theta) | length(theta) != 1) {
+    stop("theta must be one numeric value")
+  }
+
+  if (n <= 0 | n != as.integer(n)){
+    stop("n needs to be a positive integer")
+  }
+
+  if (theta <= 0){
+    stop("theta must be positive")
+  }
+
 
   U <- runif(n)
 
@@ -24,3 +40,5 @@ rquad <- function(n,theta){
 
   return(x)
 }
+
+rquad(10,0.5)
