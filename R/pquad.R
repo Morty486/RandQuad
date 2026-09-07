@@ -19,13 +19,11 @@ pquad <-function(q,theta){
   }
 
 
+  cdf <- ifelse(q <= -1,
+                0,
+                ifelse(q >= 1,
+                       1,
+                       (theta*q^3+3*q+theta+3)/(2*(theta+3))))
 
-  if (q <= -1){
-    return(0)
-  }else if (q >= 1){
-    return(1)
-    }else{
-    cdf <- (theta*q^3+3*q+theta+3)/(2*(theta+3))
-    return(cdf)
-  }
+  return(cdf)
 }

@@ -18,10 +18,9 @@ dquad <- function(x, theta){
     stop("theta must be positive")
   }
 
-  if (x <= -1 | x >= 1){
-    return(0)
-  }else{
-    pdf <- 3/(2*(theta+3))*(1+theta*x^2)
-    return(pdf)
-  }
+  pdf <- ifelse(x <= -1 | x >= 1,
+                0,
+                3/(2*(theta+3))*(1+theta*x^2))
+
+  return(pdf)
 }
