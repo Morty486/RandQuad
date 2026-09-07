@@ -3,8 +3,6 @@
 
 
 
-
-
 dquad <- function(x, theta){
 
 
