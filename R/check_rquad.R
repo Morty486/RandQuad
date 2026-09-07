@@ -1,12 +1,16 @@
 #' Checking everything works
 #'
-#' @param n
-#' @param theta
+#' @param n A positive integer
+#' @param theta A posistive numeric value
 #'
-#' @returns
+#' @returns print a theoretical vs emprical data frame, histogram, and emprical
+#' cdf
+#' @importFrom stats var ecdf runif uniroot
+#' @importFrom graphics par hist curve
 #' @export
 #'
 #' @examples
+#' check_rquad()
 check_rquad <- function(n = 10000, theta = 2){
 
   mean_theory <- 0

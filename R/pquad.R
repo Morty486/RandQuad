@@ -1,12 +1,13 @@
 #' Distribution function for a quadratic function
 #'
-#' @param q
-#' @param theta
+#' @param q  A numeric value
+#' @param theta A positive numeric value
 #'
-#' @returns
+#' @returns CDF value for corresponding q
 #' @export
 #'
 #' @examples
+#' pquad(0.1,1)
 pquad <-function(q,theta){
 
 
