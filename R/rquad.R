@@ -1,6 +1,12 @@
-
-
-
+#' Random number generator for a quadratic function
+#'
+#' @param n
+#' @param theta
+#'
+#' @returns
+#' @export
+#'
+#' @examples
 rquad <- function(n,theta){
 
 

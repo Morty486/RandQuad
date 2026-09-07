@@ -1,8 +1,12 @@
-
-
-
-
-
+#' Density of a quadratic function
+#'
+#' @param x
+#' @param theta
+#'
+#' @returns
+#' @export
+#'
+#' @examples
 dquad <- function(x, theta){
 
 

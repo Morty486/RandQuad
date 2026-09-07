@@ -1,8 +1,12 @@
-
-
-
-
-
+#' Distribution function for a quadratic function
+#'
+#' @param q
+#' @param theta
+#'
+#' @returns
+#' @export
+#'
+#' @examples
 pquad <-function(q,theta){
 
 

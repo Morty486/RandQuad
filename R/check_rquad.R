@@ -1,7 +1,12 @@
-
-
-
-
+#' Checking everything works
+#'
+#' @param n
+#' @param theta
+#'
+#' @returns
+#' @export
+#'
+#' @examples
 check_rquad <- function(n = 10000, theta = 2){
 
   mean_theory <- 0
