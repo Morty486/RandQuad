@@ -5,11 +5,11 @@ rquad <- function(n,theta){
 
 
   if (!is.numeric(n) | length(n) != 1) {
-    stop("n must be one numeric value")
+    stop("n must be a numeric value")
   }
 
   if (!is.numeric(theta) | length(theta) != 1) {
-    stop("theta must be one numeric value")
+    stop("theta must be a numeric value")
   }
 
   if (n <= 0 | n != as.integer(n)){
@@ -41,4 +41,3 @@ rquad <- function(n,theta){
   return(x)
 }
 
-rquad(10,0.5)
