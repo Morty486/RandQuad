@@ -1,4 +1,5 @@
-#' Random number generator for a quadratic function using invese cdf sampling
+
+#' Random number generator for a quadratic function using accept-reject sampling
 #'
 #' @param n A positive integer
 #' @param theta A positive numeric value
@@ -7,8 +8,8 @@
 #' @export
 #'
 #' @examples
-#' rquad(1000,1)
-rquad <- function(n,theta){
+#' rquad2(1000,1)
+rquad2 <- function(n,theta){
 
 
   if (!is.numeric(n) | length(n) != 1) {
@@ -28,23 +29,18 @@ rquad <- function(n,theta){
   }
 
 
-  U <- runif(n)
+  x <- c()
 
-  F_x <- function(x){
-    return((theta*x^3+3*x+theta+3)/(2*(theta+3)))
-  }
-  F_eq <- function(x, u) {
-    return(F_x(x) - u)
-  }
+  while (length(x) < n){
 
-  x <- sapply(U, function(u) {
-    uniroot(
-      F_eq,
-      interval = c(-1, 1),
-      u = u
-    )$root
-  })
+     U <- runif(1)
+     y <- runif(1,-1,1)
+
+    if (U <= (1+theta*y^2)/(1+theta)){
+      x <- c(x,y)
+    }
+
+  }
 
   return(x)
 }
-
