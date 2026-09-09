@@ -7,6 +7,7 @@
 #' @param B number of replicates
 #'
 #' @returns summary statistics of running time
+#' @importFrom stats median sd
 #' @export
 #'
 #' @examples
