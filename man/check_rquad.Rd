@@ -9,7 +9,7 @@ check_rquad(n = 10000, theta = 2)
 \arguments{
 \item{n}{A positive integer}
 
-\item{theta}{A posistive numeric value}
+\item{theta}{A positive numeric value}
 }
 \value{
 print a theoretical vs emprical data frame, histogram, and emprical

@@ -29,15 +29,17 @@ rquad2 <- function(n,theta){
   }
 
 
-  x <- c()
+  x <- numeric(n)
+  i <- 1
 
-  while (length(x) < n){
+  while (i < n){
 
      U <- runif(1)
      y <- runif(1,-1,1)
 
     if (U <= (1+theta*y^2)/(1+theta)){
-      x <- c(x,y)
+      x[i] <- y
+      i <- i+1
     }
 
   }
