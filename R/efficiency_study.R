@@ -4,6 +4,7 @@
 #' @param theta A numeric value specifying the distribution parameter. Default
 #'  is 2.
 #' @param B A positive integer specifying the number of replications.
+#' @param seed A single value
 #'
 #' @returns A data frame containing the method, sample size, summary statistics
 #' `of execution time.

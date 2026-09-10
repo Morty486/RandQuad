@@ -13,6 +13,8 @@ efficiency_study(n_values = c(10^3), theta = 2, B = 10, seed = 123)
 is 2.}
 
 \item{B}{A positive integer specifying the number of replications.}
+
+\item{seed}{A single value}
 }
 \value{
 A data frame containing the method, sample size, summary statistics
