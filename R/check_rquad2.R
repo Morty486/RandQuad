@@ -1,4 +1,7 @@
-#' Checking everything works
+
+
+
+#' Checking everything works for accept-rejectionn algorithm
 #'
 #' @param n A positive integer
 #' @param theta A positive numeric value
@@ -10,14 +13,14 @@
 #' @export
 #'
 #' @examples
-#' check_rquad()
-check_rquad <- function(n = 10000, theta = 2){
+#' check_rquad2()
+check_rquad2 <- function(n = 10000, theta = 2){
 
   mean_theory <- 0
   variance_theory <- (3*theta+5)/(5*(theta+3))
 
 
-  x <- rquad(n,theta)
+  x <- rquad2(n,theta)
   mean_empirical <- mean(x)
   variance_empirical <- var(x)
 
@@ -49,5 +52,3 @@ check_rquad <- function(n = 10000, theta = 2){
 
 
 }
-
-
