@@ -32,7 +32,7 @@ rquad2 <- function(n,theta){
   x <- numeric(n)
   i <- 1
 
-  while (i < n){
+  while (i <= n){
 
      U <- runif(1)
      y <- runif(1,-1,1)
