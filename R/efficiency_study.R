@@ -4,7 +4,6 @@
 #' @param theta A numeric value specifying the distribution parameter. Default
 #'  is 2.
 #' @param B A positive integer specifying the number of replications.
-#' @param seed A single value
 #'
 #' @returns A data frame containing the method, sample size, summary statistics
 #' `of execution time.
@@ -14,10 +13,8 @@
 #' efficiency_study(c(100,1000,10000))
 efficiency_study <- function(n_values = c(10^3),
                              theta = 2,
-                             B = 10,
-                             seed = 123){
+                             B = 10){
 
-  set.seed(seed)
 
   result_rquad <- lapply(n_values, function(n) check_efficiency(
     rquad,
