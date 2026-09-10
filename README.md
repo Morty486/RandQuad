@@ -15,7 +15,6 @@ devtools::install_github("Morty486/RandQuad")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(RandQuad)
@@ -34,5 +33,13 @@ check_rquad()
 
 efficiency_study(c(10^3, 10^4), theta = 2, B = 4)
 
+```
+
+``` r
+set.seed(123)
+x1 <- rquad(10, 2)
+set.seed(123)
+x2 <- rquad(10, 2)
+identical(x1, x2)
 ```
 
