@@ -24,3 +24,15 @@ x <- rquad(1000, theta = 2)
 head(x)
 ```
 
+``` r
+dquad(0.5, theta = 2)
+pquad(0.5, theta = 2)
+
+set.seed(100)
+x <- rquad(10000, theta = 2)
+check_rquad()
+
+efficiency_study(c(10^3, 10^4), theta = 2, B = 4)
+
+```
+

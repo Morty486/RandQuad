@@ -9,8 +9,8 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Basic functions for a quadratic probablity density on (-1,1).
+  Inverse-cdf sampling and accept-rejection sampling are provided in package.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

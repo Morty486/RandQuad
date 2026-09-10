@@ -1,4 +1,4 @@
-#' Checking everything works
+#' Simulation Diagnostics for rquad()
 #'
 #' @param n A positive integer
 #' @param theta A numeric value specifying the distribution parameter. Default

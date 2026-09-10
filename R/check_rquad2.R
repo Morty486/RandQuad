@@ -1,7 +1,7 @@
 
 
 
-#' Checking everything works for accept-rejectionn algorithm
+#' Simulation Diagnostics for rquad2()
 #'
 #' @param n A positive integer
 #' @param theta A numeric value specifying the distribution parameter. Default
