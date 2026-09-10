@@ -9,7 +9,7 @@ rquad2(n, theta)
 \arguments{
 \item{n}{A positive integer}
 
-\item{theta}{A positive numeric value}
+\item{theta}{A numeric value specifying the distribution parameter.}
 }
 \value{
 A vector of random numbers

@@ -9,7 +9,8 @@ check_rquad2(n = 10000, theta = 2)
 \arguments{
 \item{n}{A positive integer}
 
-\item{theta}{A positive numeric value}
+\item{theta}{A numeric value specifying the distribution parameter. Default
+is 2.}
 }
 \value{
 print a theoretical vs emprical data frame, histogram, and emprical
