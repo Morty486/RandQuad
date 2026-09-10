@@ -2,7 +2,7 @@
 #' Random number generator for a quadratic function using accept-reject sampling
 #'
 #' @param n A positive integer
-#' @param theta A positive numeric value
+#' @param theta A numeric value specifying the distribution parameter.
 #'
 #' @returns A vector of random numbers
 #' @export

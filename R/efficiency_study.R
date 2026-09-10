@@ -1,10 +1,12 @@
-#' Title
+#' Compare Efficiency of Random Number Generators
 #'
 #' @param n_values A numeric vector of positive integers
-#' @param theta
-#' @param B
+#' @param theta A numeric value specifying the distribution parameter. Default
+#'  is 2.
+#' @param B A positive integer specifying the number of replications.
 #'
-#' @returns
+#' @returns A data frame containing the method, sample size, summary statistics
+#' `of execution time.
 #' @export
 #'
 #' @examples

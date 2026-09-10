@@ -4,7 +4,8 @@
 #' Checking everything works for accept-rejectionn algorithm
 #'
 #' @param n A positive integer
-#' @param theta A positive numeric value
+#' @param theta A numeric value specifying the distribution parameter. Default
+#' is 2.
 #'
 #' @returns print a theoretical vs emprical data frame, histogram, and emprical
 #' cdf
