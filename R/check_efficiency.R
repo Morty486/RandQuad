@@ -2,8 +2,8 @@
 #' Check the efficiency of the algorithm
 #'
 #' @param f function want to test
-#' @param n number of observations want to generate for a single function.
-#' @param theta function parameter
+#' @param n A positive integer giving the number of observations to generate.
+#' @param theta A positive numeric value specifying the distribution parameter.
 #' @param B number of replicates
 #'
 #' @returns summary statistics of running time

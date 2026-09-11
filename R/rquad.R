@@ -1,14 +1,14 @@
 #' Random number generator for a quadratic function using invese cdf sampling
 #'
 #' @param n A positive integer
-#' @param theta A positive numeric value
+#' @param theta A positive numeric value specifying the distribution parameter.
 #'
 #' @returns A vector of random numbers
 #' @export
 #'
 #' @examples
 #' rquad(1000,1)
-rquad <- function(n,theta){
+rquad <- function(n,theta=2){
 
 
   if (!is.numeric(n) | length(n) != 1) {

@@ -4,12 +4,12 @@
 \alias{dquad}
 \title{Density of a quadratic function}
 \usage{
-dquad(x, theta)
+dquad(x, theta = 2)
 }
 \arguments{
 \item{x}{A numeric value}
 
-\item{theta}{A positive numeric value}
+\item{theta}{A positive numeric value specifying the distribution parameter.}
 }
 \value{
 Density value for corresponding x

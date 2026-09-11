@@ -9,9 +9,9 @@ check_efficiency(f, n = 1000, theta = 2, B = 10)
 \arguments{
 \item{f}{function want to test}
 
-\item{n}{number of observations want to generate for a single function.}
+\item{n}{A positive integer giving the number of observations to generate.}
 
-\item{theta}{function parameter}
+\item{theta}{A positive numeric value specifying the distribution parameter.}
 
 \item{B}{number of replicates}
 }

@@ -7,10 +7,10 @@
 efficiency_study(n_values = c(10^3), theta = 2, B = 10)
 }
 \arguments{
-\item{n_values}{A numeric vector of positive integers}
+\item{n_values}{A positive integer giving the number of observations to generate.}
 
-\item{theta}{A numeric value specifying the distribution parameter. Default
-is 2.}
+\item{theta}{A positive numeric value specifying the distribution parameter.
+Default is 2.}
 
 \item{B}{A positive integer specifying the number of replications.}
 }

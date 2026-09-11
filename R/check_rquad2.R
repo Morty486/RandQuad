@@ -3,7 +3,7 @@
 
 #' Simulation Diagnostics for rquad2()
 #'
-#' @param n A positive integer
+#' @param n A positive integer giving the number of observations to generate.
 #' @param theta A numeric value specifying the distribution parameter. Default
 #' is 2.
 #'

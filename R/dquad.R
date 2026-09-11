@@ -1,14 +1,14 @@
 #' Density of a quadratic function
 #'
 #' @param x A numeric value
-#' @param theta A positive numeric value
+#' @param theta A positive numeric value specifying the distribution parameter.
 #'
 #' @returns Density value for corresponding x
 #' @export
 #'
 #' @examples
 #' dquad(0,1)
-dquad <- function(x, theta){
+dquad <- function(x, theta=2){
 
 
   if (!is.numeric(x)) {

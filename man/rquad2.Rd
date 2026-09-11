@@ -4,12 +4,12 @@
 \alias{rquad2}
 \title{Random number generator for a quadratic function using accept-reject sampling}
 \usage{
-rquad2(n, theta)
+rquad2(n = 1000, theta = 2)
 }
 \arguments{
-\item{n}{A positive integer}
+\item{n}{A positive integer giving the number of observations to generate.}
 
-\item{theta}{A numeric value specifying the distribution parameter.}
+\item{theta}{A positive numeric value specifying the distribution parameter.}
 }
 \value{
 A vector of random numbers
@@ -19,4 +19,5 @@ Random number generator for a quadratic function using accept-reject sampling
 }
 \examples{
 rquad2(1000,1)
+rquad2()
 }

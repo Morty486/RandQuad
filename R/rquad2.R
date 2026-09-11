@@ -1,15 +1,16 @@
 
 #' Random number generator for a quadratic function using accept-reject sampling
 #'
-#' @param n A positive integer
-#' @param theta A numeric value specifying the distribution parameter.
+#' @param n A positive integer giving the number of observations to generate.
+#' @param theta A positive numeric value specifying the distribution parameter.
 #'
 #' @returns A vector of random numbers
 #' @export
 #'
 #' @examples
 #' rquad2(1000,1)
-rquad2 <- function(n,theta){
+#' rquad2()
+rquad2 <- function(n=1000,theta=2){
 
 
   if (!is.numeric(n) | length(n) != 1) {

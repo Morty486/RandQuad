@@ -2,12 +2,12 @@
 % Please edit documentation in R/check_rquad2.R
 \name{check_rquad2}
 \alias{check_rquad2}
-\title{Checking everything works for accept-rejectionn algorithm}
+\title{Simulation Diagnostics for rquad2()}
 \usage{
 check_rquad2(n = 10000, theta = 2)
 }
 \arguments{
-\item{n}{A positive integer}
+\item{n}{A positive integer giving the number of observations to generate.}
 
 \item{theta}{A numeric value specifying the distribution parameter. Default
 is 2.}
@@ -17,7 +17,7 @@ print a theoretical vs emprical data frame, histogram, and emprical
 cdf
 }
 \description{
-Checking everything works for accept-rejectionn algorithm
+Simulation Diagnostics for rquad2()
 }
 \examples{
 check_rquad2()

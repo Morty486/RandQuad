@@ -4,12 +4,12 @@
 \alias{pquad}
 \title{Distribution function for a quadratic function}
 \usage{
-pquad(q, theta)
+pquad(q, theta = 2)
 }
 \arguments{
 \item{q}{A numeric value}
 
-\item{theta}{A positive numeric value}
+\item{theta}{A positive numeric value specifying the distribution parameter.}
 }
 \value{
 CDF value for corresponding q

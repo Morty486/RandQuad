@@ -2,22 +2,22 @@
 % Please edit documentation in R/check_rquad.R
 \name{check_rquad}
 \alias{check_rquad}
-\title{Checking everything works}
+\title{Simulation Diagnostics for rquad()}
 \usage{
 check_rquad(n = 10000, theta = 2)
 }
 \arguments{
 \item{n}{A positive integer}
 
-\item{theta}{A numeric value specifying the distribution parameter. Default
-is 2.}
+\item{theta}{A positive numeric value specifying the distribution parameter.
+Default is 2.}
 }
 \value{
 print a theoretical vs emprical data frame, histogram, and emprical
 cdf
 }
 \description{
-Checking everything works
+Simulation Diagnostics for rquad()
 }
 \examples{
 check_rquad()

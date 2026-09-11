@@ -4,12 +4,12 @@
 \alias{rquad}
 \title{Random number generator for a quadratic function using invese cdf sampling}
 \usage{
-rquad(n, theta)
+rquad(n, theta = 2)
 }
 \arguments{
 \item{n}{A positive integer}
 
-\item{theta}{A positive numeric value}
+\item{theta}{A positive numeric value specifying the distribution parameter.}
 }
 \value{
 A vector of random numbers
