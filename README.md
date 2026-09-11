@@ -1,6 +1,8 @@
 
 # RandQuad
 
+[![R-CMD-check.yaml](https://github.com/Morty486/RandQuad/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Morty486/RandQuad/actions/workflows/R-CMD-check.yaml)
+
 `RandQuad` is an R package for generating random variables from a
 quadratic probability density function (pdf).
 
